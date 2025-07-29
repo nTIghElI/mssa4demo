@@ -12,3 +12,4 @@ C:\GitHub\mssa4demo\mssa4demo\Day_1_Loops\obj\Debug\net8.0\refint\Day_1_Loops.dl
 C:\GitHub\mssa4demo\mssa4demo\Day_1_Loops\obj\Debug\net8.0\Day_1_Loops.pdb
 C:\GitHub\mssa4demo\mssa4demo\Day_1_Loops\obj\Debug\net8.0\Day_1_Loops.genruntimeconfig.cache
 C:\GitHub\mssa4demo\mssa4demo\Day_1_Loops\obj\Debug\net8.0\ref\Day_1_Loops.dll
+C:\GitHub\mssa4demo\mssa4demo\Day_1_Loops\obj\Debug\net8.0\Day_1_Loops.sourcelink.json

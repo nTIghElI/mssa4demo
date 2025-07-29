@@ -1,63 +1,102 @@
-﻿// namespace Day_1_Loops;
+// // the ourAnimals array will store the following: 
+// string animalSpecies = "";
+// string animalID = "";
+// string animalAge = "";
+// string animalPhysicalDescription = "";
+// string animalPersonalityDescription = "";
+// string animalNickname = "";
 
-// class Program
+// // variables that support data entry
+// int maxPets = 8;
+// string? readResult;
+// string menuSelection = "";
+
+// // array used to store runtime data, there is no persisted data
+// string[,] ourAnimals = new string[maxPets, 6];
+
+// // TODO: Convert the if-elseif-else construct to a switch statement
+
+// // create some initial ourAnimals array entries
+// for (int i = 0; i < maxPets; i++)
 // {
-//     static void Main(string[] args)
+//     if (i == 0)
 //     {
- 
-//         int size = 8;
-//         char firstChar = 'X';
-//         char secondChar = 'O';
- 
-//         Grid chessBoard = new Grid(size, firstChar, secondChar);
-//         string string1 = chessBoard.ToString();
-//         Console.WriteLine(string1);
-//         Console.WriteLine(chessBoard);
-//         string string2 = chessBoard.ToBaseString();
-//         Console.WriteLine(string2);
- 
+//         animalSpecies = "dog";
+//         animalID = "d1";
+//         animalAge = "2";
+//         animalPhysicalDescription = "medium sized cream colored female golden retriever weighing about 65 pounds. housebroken.";
+//         animalPersonalityDescription = "loves to have her belly rubbed and likes to chase her tail. gives lots of kisses.";
+//         animalNickname = "lola";
 //     }
+//     else if (i == 1)
+//     {
+//         animalSpecies = "dog";
+//         animalID = "d2";
+//         animalAge = "9";
+//         animalPhysicalDescription = "large reddish-brown male golden retriever weighing about 85 pounds. housebroken.";
+//         animalPersonalityDescription = "loves to have his ears rubbed when he greets you at the door, or at any time! loves to lean-in and give doggy hugs.";
+//         animalNickname = "loki";
+//     }
+//     else if (i == 2)
+//     {
+//         animalSpecies = "cat";
+//         animalID = "c3";
+//         animalAge = "1";
+//         animalPhysicalDescription = "small white female weighing about 8 pounds. litter box trained.";
+//         animalPersonalityDescription = "friendly";
+//         animalNickname = "Puss";
+//     }
+//     else if (i == 3)
+//     {
+//         animalSpecies = "cat";
+//         animalID = "c4";
+//         animalAge = "?";
+//         animalPhysicalDescription = "";
+//         animalPersonalityDescription = "";
+//         animalNickname = "";
+//     }
+//     else
+//     {
+//         animalSpecies = "";
+//         animalID = "";
+//         animalAge = "";
+//         animalPhysicalDescription = "";
+//         animalPersonalityDescription = "";
+//         animalNickname = "";
+//     }
+
+//     ourAnimals[i, 0] = "ID #: " + animalID;
+//     ourAnimals[i, 1] = "Species: " + animalSpecies;
+//     ourAnimals[i, 2] = "Age: " + animalAge;
+//     ourAnimals[i, 3] = "Nickname: " + animalNickname;
+//     ourAnimals[i, 4] = "Physical description: " + animalPhysicalDescription;
+//     ourAnimals[i, 5] = "Personality: " + animalPersonalityDescription;
 // }
 
-// class Grid
+// // display the top-level menu options
+
+// Console.Clear();
+
+// Console.WriteLine("Welcome to the Contoso PetFriends app. Your main menu options are:");
+// Console.WriteLine(" 1. List all of our current pet information");
+// Console.WriteLine(" 2. Add a new animal friend to the ourAnimals array");
+// Console.WriteLine(" 3. Ensure animal ages and physical descriptions are complete");
+// Console.WriteLine(" 4. Ensure animal nicknames and personality descriptions are complete");
+// Console.WriteLine(" 5. Edit an animal’s age");
+// Console.WriteLine(" 6. Edit an animal’s personality description");
+// Console.WriteLine(" 7. Display all cats with a specified characteristic");
+// Console.WriteLine(" 8. Display all dogs with a specified characteristic");
+// Console.WriteLine();
+// Console.WriteLine("Enter your selection number (or type Exit to exit the program)");
+
+// readResult = Console.ReadLine();
+// if (readResult != null)
 // {
-//     public int Size { get; set; }
-//     public char FirstChar { get; set; }
-//     public char SecondChar { get; set; }
-
-//     public Grid(int size, char firstChar, char secondChar)
-//     {
-//         Size = size;
-//         FirstChar = firstChar;
-//         SecondChar = secondChar;
-//     }
-
-//     public override string ToString()
-//     {
-//         string result = "";
-
-//         //outer for loop (for each row)
-//         for (int row = 0; row < Size; row++)
-//         {
-//             //inner for loop (for each column)
-//             for (int col = 0; col < Size; col++)
-//             {
-//                 //check if row value is odd/even
-//                 if ((row + col) % 2 == 0)
-//                     result += FirstChar; //used to be Console.Write(FirstChar);
-//                 else
-//                     result += SecondChar; //used to be Console.Write(SecondChar);
-//             }
-//             result += "\n"; //used to Console.WriteLine();
-//         }
-//         return result;
-//     }
-
-//     public string ToBaseString()
-//     {
-//         return base.ToString();
-//     }
-
+//     menuSelection = readResult.ToLower();
 // }
 
+// Console.WriteLine($"You selected menu option {menuSelection}.");
+// Console.WriteLine("Press the Enter key to continue");
 
+// // pause code execution
+// readResult = Console.ReadLine();
