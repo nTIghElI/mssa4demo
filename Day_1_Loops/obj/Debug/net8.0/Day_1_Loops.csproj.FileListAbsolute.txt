@@ -1,0 +1,14 @@
+C:\GitHub\mssa4demo\mssa4demo\Day_1_Loops\bin\Debug\net8.0\Day_1_Loops.exe
+C:\GitHub\mssa4demo\mssa4demo\Day_1_Loops\bin\Debug\net8.0\Day_1_Loops.deps.json
+C:\GitHub\mssa4demo\mssa4demo\Day_1_Loops\bin\Debug\net8.0\Day_1_Loops.runtimeconfig.json
+C:\GitHub\mssa4demo\mssa4demo\Day_1_Loops\bin\Debug\net8.0\Day_1_Loops.dll
+C:\GitHub\mssa4demo\mssa4demo\Day_1_Loops\bin\Debug\net8.0\Day_1_Loops.pdb
+C:\GitHub\mssa4demo\mssa4demo\Day_1_Loops\obj\Debug\net8.0\Day_1_Loops.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\mssa4demo\mssa4demo\Day_1_Loops\obj\Debug\net8.0\Day_1_Loops.AssemblyInfoInputs.cache
+C:\GitHub\mssa4demo\mssa4demo\Day_1_Loops\obj\Debug\net8.0\Day_1_Loops.AssemblyInfo.cs
+C:\GitHub\mssa4demo\mssa4demo\Day_1_Loops\obj\Debug\net8.0\Day_1_Loops.csproj.CoreCompileInputs.cache
+C:\GitHub\mssa4demo\mssa4demo\Day_1_Loops\obj\Debug\net8.0\Day_1_Loops.dll
+C:\GitHub\mssa4demo\mssa4demo\Day_1_Loops\obj\Debug\net8.0\refint\Day_1_Loops.dll
+C:\GitHub\mssa4demo\mssa4demo\Day_1_Loops\obj\Debug\net8.0\Day_1_Loops.pdb
+C:\GitHub\mssa4demo\mssa4demo\Day_1_Loops\obj\Debug\net8.0\Day_1_Loops.genruntimeconfig.cache
+C:\GitHub\mssa4demo\mssa4demo\Day_1_Loops\obj\Debug\net8.0\ref\Day_1_Loops.dll
