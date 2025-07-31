@@ -1,3 +1,4 @@
 {
-    "dotnet.defaultSolution": "Day_1_Loops.sln"
+    "dotnet.defaultSolution": "Day_1_Loops.sln",
+    "CodeGPT.apiKey": "Ollama"
 }
